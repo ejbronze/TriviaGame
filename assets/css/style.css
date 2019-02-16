@@ -1,0 +1,19 @@
+body {
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1906-map-of-brooklyn-ny-new-york-in-sepia-toby-mcguire.jpg");
+  text-align: center;
+  /* background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
+#gameName {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.text-muted {
+  color: blue;
+}
+.last-seconds {
+  color: red;
+}
+.option {
+  margin: 15px;
+}

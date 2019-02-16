@@ -23,16 +23,16 @@
 </head>
 
 <body>
-
-  <audio controls loop>
-    <source src="assets/NYC_Sounds.mp3" type="audio/mp3" />
-  </audio>
-
   <div class="container">
+    <div class="navbar">
+      <!-- <button id="restart" class="btn btn-info btn-lg">Restart Game</button> -->
+    </div>
+    <br/>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
+        <h2 id="gameName">New York City Trivia Game</h2>
         <div id="game">
-          <h2>New York City Trivia Game</h2>
+          
           <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
           <p id="question" class="lead"></p>
         </div>
@@ -60,7 +60,9 @@
       crossorigin="anonymous"></script>
     <!-- TRIVIA APP JS -->
     <script src="assets/javascript/app.js"></script>
-
+<audio controls loop autoplay>
+  <source src="assets/NYC_Sounds.mp3" type="audio/mp3" />
+</audio>
 
 </body>
 
